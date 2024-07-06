@@ -1,6 +1,9 @@
 import React, { lazy } from "react";
-const AboutHeroSection = lazy(() => import("./components/AboutHeroSection"));
-const JoinTeam = lazy(() => import("./components/JoinTeam"));
+import AboutHeroSection from "./components/AboutHeroSection";
+import JoinTeam from "./components/JoinTeam";
+
+// const AboutHeroSection = lazy(() => import("./components/AboutHeroSection"));
+// const JoinTeam = lazy(() => import("./components/JoinTeam"));
 
 
 function About() {
